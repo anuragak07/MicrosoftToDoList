@@ -77,6 +77,9 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
             app:drawableStartCompat="@drawable/ic_outline_wb_sunny_24" />
 
         <TextView
@@ -89,6 +92,9 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
             app:drawableStartCompat="@drawable/ic_baseline_star_border_24" />
 
         <TextView
@@ -101,6 +107,9 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
             app:drawableStartCompat="@drawable/ic_baseline_list_alt_24" />
 
         <TextView
@@ -113,6 +122,9 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
             app:drawableStartCompat="@drawable/ic_baseline_person_outline_24" />
 
         <TextView
@@ -125,6 +137,9 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
             app:drawableStartCompat="@drawable/ic_outline_home_24" />
 
         <TextView
@@ -168,6 +183,9 @@
         android:orientation="horizontal"
         android:paddingTop="@dimen/_10sdp"
         android:paddingBottom="@dimen/_10sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
         app:layout_constraintTop_toBottomOf="@+id/LinearLayout2">
 
         <ImageView
