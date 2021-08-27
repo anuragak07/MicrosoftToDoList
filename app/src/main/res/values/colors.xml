@@ -11,5 +11,11 @@
     <color name="FloatingTaskButton">#DEEDF8</color>
     <color name="MicrosoftBlue">#195ABE</color>
     <color name="Red">#FF0000</color>
+    <color name="LightPink">#FFE4E9</color>
+    <color name="DarkPink">#AE375D</color>
+    <color name="DarkGreen">#186E6B</color>
+    <color name="LightGreen">#D4F1EF</color>
+
+
 
 </resources>

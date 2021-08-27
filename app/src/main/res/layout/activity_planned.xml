@@ -4,30 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundTask"
-    tools:context=".Tasks">
+    android:background="@color/LightGreen"
+    tools:context=".PlannedActivity">
+
 
     <TextView
-        android:id="@+id/taskText"
+        android:id="@+id/taskTextPlan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:includeFontPadding="false"
         android:layout_marginStart="@dimen/_12sdp"
         android:layout_marginEnd="@dimen/_12sdp"
         android:layout_marginTop="@dimen/_20sdp"
-        android:text="Task"
-        android:textColor="@color/white"
+        android:text="Planned"
+        android:textColor="@color/DarkGreen"
         android:textSize="@dimen/_30sdp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/TaskFloatingButton"
+        android:id="@+id/TaskFloatingButtonPlan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_baseline_add_task"
-        android:backgroundTint="@color/FloatingTaskButton"
+        android:src="@drawable/ic_baseline_add_green"
+        android:backgroundTint="@color/DarkGreen"
         android:elevation="@dimen/_6sdp"
         app:borderWidth="0dp"
         app:fabSize="normal"
@@ -36,7 +37,7 @@
         android:layout_margin="@dimen/_20sdp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/RecyclerViewTask"
+        android:id="@+id/RecyclerViewPlan"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:clipToPadding="false"
@@ -45,7 +46,6 @@
         android:paddingEnd="@dimen/_12sdp"
         android:paddingBottom="@dimen/_12sdp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/taskText" />
-
+        app:layout_constraintTop_toBottomOf="@+id/taskTextPlan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
