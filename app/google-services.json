@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476687896120",
+    "firebase_url": "https://to-do-list-2d612-default-rtdb.firebaseio.com",
+    "project_id": "to-do-list-2d612",
+    "storage_bucket": "to-do-list-2d612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476687896120:android:5ff34946aac9fd0a7b60cd",
+        "android_client_info": {
+          "package_name": "com.masai.todolist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476687896120-21krmaiil500psbpe8hslql3l9mc5mur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA6H274JFZhl4bhYvRwuVu5hlzs_oItAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476687896120-21krmaiil500psbpe8hslql3l9mc5mur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

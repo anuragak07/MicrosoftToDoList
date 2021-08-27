@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TO DO LIST</string>
+    <string name="_918920468539">918920468539</string>
+    <string name="anurag_prasad">Anurag Prasad</string>
+    <string name="important">Important</string>
+    <string name="my_day">My Day</string>
+    <string name="planned">Planned</string>
+    <string name="assigned_to_me">Assigned to me</string>
+    <string name="tasks">Tasks</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="Welcome_to_MicroSoft">Welcome to Microsoft To Do</string>
+    <string name="Sign_in_with">Sign in with a work,school,or Microsoft account</string>
+    <string name="not_have_account">Don\'t have a Microsoft account?</string>
+    <string name="email_or_phone_number">Email or phone number</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create account</string>
+</resources>
