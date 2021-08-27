@@ -78,7 +78,7 @@ public class SignUp extends AppCompatActivity {
 
             } else {
                 mPass.setError("Password should be atleast  7 characters");
-                mConfirmPass.setError("Password is incorrect");
+                mConfirmPass.setError("Password is not matching");
             }
         }
             else if(email.isEmpty()){

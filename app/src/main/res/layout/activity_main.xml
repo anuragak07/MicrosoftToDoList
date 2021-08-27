@@ -221,7 +221,7 @@
         android:textColor="@color/MicrosoftBlue"
         android:textSize="@dimen/_12ssp"
         android:textStyle="bold"
-        app:drawableStartCompat="@drawable/ic_baseline_add_24"
+        app:drawableStartCompat="@drawable/ic_baseline_add_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 

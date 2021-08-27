@@ -77,7 +77,7 @@ public class SignIn extends AppCompatActivity {
 
             } else {
 
-                mPass.setError("Password is incorrect");
+                mPass.setError("Password should be more than 6 characters");
             }
         }
         else if(email.isEmpty()){
